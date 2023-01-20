@@ -1,0 +1,96 @@
+/*08 Setting a width 
+09 Centering the page*/
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+/*10 More Centering*/
+nav a {
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+}
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+/* 11 Adding a container for our message background*/
+#background {
+    height: 725px;
+    background-color: #484D6D;
+}
+/*12 Setting background colors*/
+body {
+    background-color: #ffffff; 
+}
+header {
+    background-color: #D2FDFF;
+}
+nav a:hover {
+    background-color: #0091AD;
+    color: #fff;
+}
+.book, .join {
+    background-color: #484D6D;
+    text-decoration: none;
+}
+.book:hover, .join:hover {
+    background-color: #0091AD;
+}
+.msg {
+    background-color: #D2FDFF; 
+}
+footer {
+    background-color: #D2FDFF;
+}
+/*13 Foreground colors*/
+.home-title {
+    color: #0091AD;
+}
+h4 {
+    color: #000;
+}
+.book, .join {
+    color: #fff;
+}
+.book:hover, .join:hover {
+    color: #fff;
+}
+.msg h2 {
+    color: #484D6D;
+}
+.msg p {
+    color: #000;
+}
+footer {
+    color: #000;
+}
+footer a {
+    color: #484D6D;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #0091AD;
+}
+/*14 Add a Few Widths*/
+.icon {
+    width: 80px;
+}
+.logo {
+    width: 200px;
+}
+#hero-img {
+    width: 100%;
+}
+/*15 Take off or add the default underline of links*/
+footer p {
+    font-size: 1.2em;
+} 
+footer p a:hover {
+    text-decoration: underline;
+}

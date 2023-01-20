@@ -1,0 +1,31 @@
+body{
+    background-color: skyblue;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}
+h1, h3, h5 {
+    color: #fff;
+    
+}
+h1:hover{
+    color: #000;
+}
+li {
+    text-align: left;
+    font-weight:bold;
+}
+img {
+    width: 25%;
+}
+.quote {
+    color: #fff;
+    font-size: 1.5em;
+    width: 250px;
+    margin: 1.5em auto;
+}
+p {
+    font-size: 0.5em;
+    margin: 0 auto;
+    width: 300px;
+}
