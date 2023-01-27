@@ -1,0 +1,22 @@
+body {
+    margin: 0px;
+}
+.image_block, .image_block img {
+    width: 900px;
+}
+/* img {
+    margin: 0px;
+} */
+.circle_block {
+    background-color: darkgray;
+    width: auto;
+    margin: -10px 0px;
+}
+
+.circle_block img {
+    border-radius: 50%;
+    border: 15px solid gray;
+    width: 185px;
+    display: inline;
+    margin: 30px 40px;
+}

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Source+Sans+Pro:wght@900&display=swap');
+
 /*08 Setting a width 
 09 Centering the page*/
 #content {
@@ -9,6 +11,7 @@ nav a {
     text-align: center;
     color: #000;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
@@ -27,6 +30,10 @@ main section {
 /*12 Setting background colors*/
 body {
     background-color: #ffffff; 
+    font-family: Oswald, Helvetica, sans-serif;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
 }
 header {
     background-color: #D2FDFF;
@@ -37,38 +44,48 @@ nav a:hover {
 }
 .book, .join {
     background-color: #484D6D;
+    color: #fff;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #0091AD;
 }
 .msg {
     background-color: #D2FDFF; 
-}
-footer {
-    background-color: #D2FDFF;
+    line-height: 1.5em;
+    padding: 35px;
 }
 /*13 Foreground colors*/
 .home-title {
     color: #0091AD;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #000;
-}
-.book, .join {
-    color: #fff;
 }
 .book:hover, .join:hover {
     color: #fff;
 }
 .msg h2 {
     color: #484D6D;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
 }
 .msg p {
     color: #000;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer {
+    background-color: #D2FDFF;
     color: #000;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a {
     color: #484D6D;
@@ -80,6 +97,7 @@ footer a:hover {
 /*14 Add a Few Widths*/
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .logo {
     width: 200px;
@@ -93,4 +111,29 @@ footer p {
 } 
 footer p a:hover {
     text-decoration: underline;
+}
+/*Simple Reset*/
+h2 {
+    margin: 0;
+}
+/*Adding Padding*/
+#logo_link {
+    padding-top: 5px;
+}
+footer .social img {
+    padding-top: 15px;
+}
+/*Adding Margins*/
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.mountains{
+    margin: 100px 0;
+}
+/*Adding borders, border radius and box-sizing*/
+.card-img {
+    border: 10px solid #0091AD;
+}
+main section img {
+    box-sizing: border-box;
 }
