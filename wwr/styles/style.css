@@ -206,7 +206,6 @@ main {
     grid-column: 2/4;
     grid-row: 2/3;
 }
-
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -246,5 +245,109 @@ main {
     }
     footer {
         margin-top: 25px;
+    }
+}
+
+/* css of page Blog */
+.blog-pagename {
+    margin: 30px;
+    padding: 20px;
+    border-left: #484D6D 3px solid;
+    border-bottom: #484D6D 3px solid;
+    text-shadow: #0091AD 2px 2px;
+    color: #484D6D;
+    /* background-color: #484D6D;
+    color: #fff; */
+}
+
+.left-card {
+    background-color: #fff;
+    grid-column: 1/6;
+    padding: 30px;
+    margin: 10px;
+}
+.right-card {
+    background-color: #D2FDFF;
+    grid-column: 6/11;
+    /* padding: 30px; */
+    /* margin: 0px; */
+    border: #484d6d 10px solid;
+    height: max-content;
+}
+.blog-img {
+    width: 100%;
+}
+.booking-card {
+    background-color: #484d6d;
+    color: #fff;
+    border: #D2FDFF 5px double;
+    border-radius: 20%;
+    padding: 30px 50px;
+}
+.booking-card > h2 {
+    text-shadow: orange 2px 2px;
+}
+.left-card >.booking-card :hover {
+    scale: 1.1;
+}
+.hightlight-card {
+    background-color: #d2fdff;
+    padding: 0px 30px 10px 30px;
+    margin-top: 5px;
+}
+.hightlight-card > h2{
+    color: #484d6d;
+}
+.blog-img:hover {
+    scale: 1.05;
+}
+.encounter-card {
+    background-color: #d2fdff;
+} 
+.encounter-card > h3 {
+    /* border-bottom: #0091AD 15px solid; */
+    margin-top: 10px;
+    padding-bottom: 10px;
+    background-color: #fff;
+}
+.encounter-card h4 {
+    text-align: left;
+    background-color: #0091AD;
+    color: #fff;
+    padding: 10px 20px;
+}
+.encounter-card > p {
+    padding: 0px 30px;
+}
+
+.article-srcoll {
+    padding: 10px;
+    height: 250px;
+    overflow-y: scroll;
+    /* background-color: #fff; */
+    margin-bottom: 10px;
+}
+/* scrollbar width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/*scrollbar Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/*scrollbar Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/*scrollbar Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+@media screen and (max-width: 900px) {
+    .left-card, .right-card {
+        grid-column: 1/11;
     }
 }
