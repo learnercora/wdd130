@@ -65,6 +65,7 @@ header {
     top: 0;
     grid-column: 1/2;
     grid-row: 1/2;
+    z-index: 999;
 }
 header > h1, header > h2 {
     color: var(--headline-color-on-color);
@@ -308,6 +309,62 @@ img {vertical-align: middle;}
   animation-duration: 1.5s;
 }
 
+/* page3 - shop */
+.about_fppa-card p:first-of-type {
+  width: 50%;
+  margin: 0 auto;
+}
+.about_fppa-card p:nth-of-type(2) {
+  /* border: 2px solid #59C3C3; */
+  background-color: #52489C;
+  color: #f2f2f2;
+  font-weight: 900;
+  width: 30%;
+  margin: 2rem auto;
+  padding: 1.5rem;
+}
+
+/* How To Change Background Image on Scroll */
+
+.product-img-card {
+  height: 300px;
+  overflow: scroll;
+  opacity: 0.5;
+  position: relative;
+}
+.product-img-card:hover {
+  opacity: 1;
+}
+.product-img {
+  width: 90%;
+}
+.bg-image {
+  height: 300px;
+  overflow: scroll;
+}
+.bg-text {
+  background-color: #fff;
+  opacity: 0.7;
+  color: #52489C;
+  z-index: 2;
+  border: solid 2px #f2f2f2;
+  font-size: 30px;
+  padding: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bg-text:hover {
+  opacity: 1;
+  border: solid 10px #52489C;
+}
+a {
+  text-decoration:none
+}
+
+
+/*  */
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
